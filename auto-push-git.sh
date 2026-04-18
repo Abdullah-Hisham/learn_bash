@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 BASE_DIR="$HOME/learn_bash"
 LOG_FILE="$HOME/git_autoupload.log"
 
