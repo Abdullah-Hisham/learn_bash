@@ -43,3 +43,4 @@ done < <(find "$BASE_DIR" -maxdepth 3 -name ".git" -type d -print0)
 
 echo "========== Finished: $(date) ==========" >> "$LOG_FILE"
 echo "" >> "$LOG_FILE"
+# try if the sctipt works or not 
