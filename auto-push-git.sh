@@ -24,7 +24,7 @@ while IFS= read -r -d '' gitdir; do
         echo "SKIP: No remote for $repo_name" >> "$LOG_FILE"
         continue
     fi
-    
+    //
     if [[ -n $(git status --porcelain 2>/dev/null) ]]; then
         git add -A
         git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')" >> "$LOG_FILE" 2>&1
